@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout <form action=""></form>
+    </title>
+    <style>
+        .h1 {
+            text-align: center;
+        }
+
+        .context {
+            text-align: center;
+        }
+
+        .footer {
+            list-style: none;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="../docs/css/grids_menu.css">
+</head>
+
+<body>
+    <h1 class="h1">Checkout form</h1>
+    <div class="context">Below is an example form built entirely with Bootstrap's form controls.
+        Each required form group has a validation state that can be triggered by attempting to submit
+        the form without completing it.</div>
+
+    <div></div>
+    <!-- grid로 감싸기=-->
+    <div class="grid-container">
+        <div class="grid-item">Billing address</div>
+        <div class="grid-container_02">First name</div>
+        <div class="grid-container_02">Last name</div>
+        <div class="grid-item">Your cart</div>
+        <!--
+    <div class="grid-container-second">
+        <div class="grid-item-second">1</div>
+        <div class="grid-item-second">
+            <main class="grid-item-second-main">
+                <div>main - 1</div>
+                <div>main - 2</div>
+                <div>main - 3</div>
+            </main>
+        </div>
+        <div class="grid-item-second">3</div>
+    </div>
+    <hr>
+    <div>grid-template-columns with justify-content</div>
+    <div class="grid-container-justify">
+        <div class="grid-item-justify">1</div>
+        <div class="grid-item-justify">2</div>
+        <div class="grid-item-justify">3</div>
+    </div>-->
+
+
+
+        <hr>
+        <!-- checkbox -->
+        <div>
+            <input type="checkbox" name="ship" id="shipping">
+            <label for="shipping">Shipping address is the same as my billing address</label>
+        </div>
+        <div>
+            <input type="checkbox" name="save" id="save_info">
+            <label for="save_info">Save this information for next time</label>
+        </div>
+        <hr>
+        <!-- radio -->
+        <p>
+        <h1>Payment</h1>
+        </p>
+        <div>
+            <input type="radio" name="credit_card" id="credit">
+            <label for="credit">Credit card</label>
+        </div>
+        <div>
+            <input type="radio" name="debit_card" id="debit">
+            <label for="debit">Credit card</label>
+        </div>
+        <div>
+            <input type="radio" name="paypal" id="pal">
+            <label for="pal">Paypal</label>
+        </div>
+        <div></div>
+        <p></p>
+        Name on card <span>Credit card number</span>
+        <!-- 테이블 -->
+        <table border="1">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+
+
+        <footer class="footer">
+            <p class="Last">© 2017-2023 Company Name</p>
+            <ul class="list-inline">
+                <li class="foot"><a href="features">Privacy</a></li>
+                <li class="foot"><a href="features">Terms</a></li>
+                <li class="foot"><a href="features">Support</a></li>
+            </ul>
+
+        </footer>
+
+</body>
+
+</html>
